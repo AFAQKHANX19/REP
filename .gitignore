@@ -1,0 +1,32 @@
+cat >> .gitignore << 'EOF'
+
+# Build outputs
+/dist/
+/build/
+/out/
+*.exe
+*.dll
+*.zip
+*.tar.gz
+
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+thumbs.db
+EOF
